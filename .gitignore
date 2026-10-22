@@ -1,0 +1,28 @@
+# 编译输出
+target/
+out/
+*.class
+
+# IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# 敏感配置
+sky-server/src/main/resources/application-dev.yml
+
+# 日志
+logs/
+*.log
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# maven
+.apt_generated
+
+# 打包临时文件
+*.jar
+*.war
