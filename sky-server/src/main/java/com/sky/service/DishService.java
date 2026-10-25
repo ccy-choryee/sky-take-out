@@ -63,4 +63,12 @@ public interface DishService {
     void startOrStop(Integer status, Long id);
 
 
+
+    /**
+     * 条件查询菜品和口味
+     * @param dish
+     * @return
+     */
+    List<DishVO> listWithFlavor(Dish dish);
+
 }
